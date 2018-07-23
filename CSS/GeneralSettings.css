@@ -1,0 +1,44 @@
+*{
+                margin: 0px;
+              }
+              html,body{
+		height:100%;
+              }
+              body{
+                font-family: 'Lato', sans-serif;
+                background-color:#374049;
+                background-repeat: repeat;
+              }
+ 		body::-webkit-scrollbar-track
+                {
+                        -webkit-box-shadow: inset 0 0 6px rgb(49,57,64);
+                        border-radius: 10px;
+                        background-color: rgba(49,57,64,0);
+                }
+
+                body::-webkit-scrollbar
+                {
+                        width: 12px;
+                        background-color: rgb(49,57,64);
+                }
+
+                body::-webkit-scrollbar-thumb
+                {
+                        border-radius: 10px;
+                        -webkit-box-shadow: inset 0 0 6px rgb(49,57,64);
+                        background-color: #D62929;
+                }
+              .Content{
+		min-height:800px;
+                width:75%;
+                display:block;
+                margin:auto;
+                padding-bottom:40px;
+                background-color: rgba(247,239,239,0.8);
+               
+                background-image: url("../images/llow Coast.png");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 20%;
+              }

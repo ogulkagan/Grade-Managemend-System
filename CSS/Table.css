@@ -1,0 +1,37 @@
+            .bas table{
+                max-width: 960px;
+                margin: 0px auto;
+                border: none;
+                color:#FFF;
+              }
+              .bas caption {
+                font-size: 1.6em;
+                font-weight: 400;
+                color:#bf2d3a;;
+                margin-top:30px;
+                margin-bottom:20px;
+              }
+              #asd tr{
+                  border-bottom: 5px solid red;
+              }
+              .bas thead th {
+                font-weight: 400;
+                background-color: #bf2d3a;
+                color: #FFF;
+              }
+              .bas td{
+                  background-color: #2C353C;
+                  max-width: 100px;
+                  max-height: 50px;
+                  overflow: visible;
+              }
+              .bas th, td {
+                text-align: center;
+                padding: 20px 25px;
+                font-weight: 300;
+                max-width: 80px;
+                max-height: 40px;
+                overflow: visible;
+              }
+              .bas table.fixed { table-layout:fixed; }
+              .bas table.fixed td { overflow: hidden; }
